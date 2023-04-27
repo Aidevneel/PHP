@@ -1,0 +1,49 @@
+#whole {
+    border: 5px dotted;
+       width: 100%;
+    background-color: gray;
+ }
+ #header {
+    width: 100%;
+    background-color: thistle;
+    margin: 5px;
+ }
+ .middle{
+    width: 100%;
+    background-color: gray;
+    margin: 5px;
+    
+ }
+ #content {
+    width: 70%;
+    background-color: yellow;
+    float: left;
+    min-height: 500px;
+    
+ }
+ #sidemenu {
+    width: 30%;
+    background-color: green;
+    float: left;
+    min-height: 500px;
+ }
+ #footer {
+    width: 100%;
+    background-color: red;
+    clear: both;
+    min-height: 25px;
+    margin: 5px;
+ }
+
+ .textbox{
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    border-style: dashed;
+ }
+
+ a{
+    font-size: 20px;
+    
+ }
