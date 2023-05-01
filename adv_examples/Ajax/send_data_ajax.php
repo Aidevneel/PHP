@@ -8,8 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-
+Title
 <input type="text" id="bookname">
+Authorid
 <input type="text" id="authorid">
 <input type="submit" value="insert" id="btn">
 
@@ -48,7 +49,7 @@
                    load();
                 }
             });
-            $("#table").show();
+            
             $.ajax({
                 url : "ajax_load.php",
                 type : "POST",
